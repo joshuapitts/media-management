@@ -1,0 +1,61 @@
+.physicalMediaContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("Anora.webp");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-blend-mode: overlay;
+}
+
+.physicalMediaContent {
+  flex: 1;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.mediaGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.mediaItem {
+  width: 150px;
+  text-align: center;
+}
+
+.mediaPoster {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.mediaPoster:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+}
+
+.mediaDetails h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+  color: #fff;
+}
+
+.mediaDetails p {
+  font-size: 14px;
+  color: #ccc;
+}

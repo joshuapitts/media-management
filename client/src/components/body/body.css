@@ -1,0 +1,28 @@
+.body {
+    flex: 15;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+  }
+  
+  .welcomeMessage {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .welcomeMessage h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .welcomeMessage p {
+    font-size: 18px;
+  }
